@@ -1,3 +1,8 @@
+# GPT-Assistant
+A personal AI assistant that can, summarize text, answer questions, rewrite content, schedule tasks and act as a "personal tutor"
+# GPT-Assistant
+
+
 Important steps and process
 
 - conda create -n gpt-assistant python=3.10
@@ -19,5 +24,7 @@ git branch -M main
 git push -u origin main
 
 code for prompts had errors(step1)
+
+ streamlit run app/main.py   
 
 code executed successfully( api-key trail version expired, next step but the API-KEY)

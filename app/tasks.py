@@ -6,10 +6,11 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import OpenAIEmbeddings
 from langchain.chains.question_answering import load_qa_chain
 from langchain_community.document_loaders import PyPDFLoader
-from dotenv import load_dotenv
 
+from dotenv import load_dotenv
 load_dotenv()
-llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0.7)
+# Ensure the OpenAI API key is set in the environment
+llm = ChatOpenAI(model_name="gpt-4o-mini-2024-07-18", temperature=0.7)
 
 def summarize_text(text):
     prompt = PromptTemplate.from_template("Summarize the following text:\n{text}")
