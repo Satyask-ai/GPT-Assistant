@@ -28,3 +28,5 @@ code for prompts had errors(step1)
  streamlit run app/main.py   
 
 code executed successfully( api-key trail version expired, next step but the API-KEY)
+
+- Project completed
